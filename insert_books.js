@@ -131,7 +131,108 @@ const books = [
     in_stock: true,
     pages: 342,
     publisher: 'Thomas Cautley Newby'
+  },
+  {
+    title: "To Kill a Mockingbird",
+    author: "Harper Lee",
+    genre: "Fiction",
+    published_year: 1960,
+    price: 1200,
+    in_stock: true,
+    pages: 281,
+    publisher: "J.B. Lippincott & Co."
+  },
+  {
+    title: "1984",
+    author: "George Orwell",
+    genre: "Dystopian",
+    published_year: 1949,
+    price: 1000,
+    in_stock: true,
+    pages: 328,
+    publisher: "Secker & Warburg"
+  },
+  {
+    title: "The Great Gatsby",
+    author: "F. Scott Fitzgerald",
+    genre: "Classic",
+    published_year: 1925,
+    price: 900,
+    in_stock: false,
+    pages: 180,
+    publisher: "Charles Scribner's Sons"
+  },
+  {
+    title: "The Hobbit",
+    author: "J.R.R. Tolkien",
+    genre: "Fantasy",
+    published_year: 1937,
+    price: 1500,
+    in_stock: true,
+    pages: 310,
+    publisher: "George Allen & Unwin"
+  },
+  {
+    title: "Pride and Prejudice",
+    author: "Jane Austen",
+    genre: "Romance",
+    published_year: 1813,
+    price: 800,
+    in_stock: true,
+    pages: 279,
+    publisher: "T. Egerton"
+  },
+  {
+    title: "The Da Vinci Code",
+    author: "Dan Brown",
+    genre: "Thriller",
+    published_year: 2003,
+    price: 1400,
+    in_stock: true,
+    pages: 454,
+    publisher: "Doubleday"
+  },
+  {
+    title: "Harry Potter and the Sorcerer's Stone",
+    author: "J.K. Rowling",
+    genre: "Fantasy",
+    published_year: 1997,
+    price: 1300,
+    in_stock: false,
+    pages: 223,
+    publisher: "Bloomsbury"
+  },
+  {
+    title: "The Alchemist",
+    author: "Paulo Coelho",
+    genre: "Adventure",
+    published_year: 1988,
+    price: 1000,
+    in_stock: true,
+    pages: 208,
+    publisher: "HarperTorch"
+  },
+  {
+    title: "Thinking, Fast and Slow",
+    author: "Daniel Kahneman",
+    genre: "Psychology",
+    published_year: 2011,
+    price: 1600,
+    in_stock: true,
+    pages: 499,
+    publisher: "Farrar, Straus and Giroux"
+  },
+  {
+    title: "A Brief History of Time",
+    author: "Stephen Hawking",
+    genre: "Science",
+    published_year: 1988,
+    price: 1700,
+    in_stock: true,
+    pages: 212,
+    publisher: "Bantam Books"
   }
+
 ];
 
 // Function to insert books into MongoDB
